@@ -8,7 +8,31 @@
   <title>Frontend Mentor | QR code component</title>
 </head>
 <body>
+  <main class="container">
+    <div class="card">
+      <picture>
+        <source
+          sizes="288w" 
+          srcset="img/image-qr-code.avif 288w" 
+          type="image/avif">
+        <source
+          sizes="288w" 
+          srcset="img/image-qr-code.webp 288w" 
+          type="image/webp">
+        <source
+          sizes="288w" 
+          srcset="img/image-qr-code.jpeg 288w" 
+          type="image/jpeg">
+        <img class="card__img__top" loading="lazy" decoding="async" src="img/image-qr-code.jpg" lazyalt="imagen" width="288" height="288" alt="image of a QR code">
+      </picture>
+      
+      <div class="card__body">
+        <h1 class="card__heading">Improve your front-end skills by building projects</h1>
 
+        <p class="card__text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </main>
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

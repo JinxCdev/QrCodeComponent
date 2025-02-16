@@ -59,3 +59,41 @@ h1, p {
     justify-content: center;
 }
 
+/** Card **/
+.card {
+    width: 32rem;
+    height: 49.9rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: var(--small-spacing);
+}
+
+.card__img__top {
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.card__body {
+    text-align: center;
+    padding: 0 var(--small-spacing);
+}
+
+.card__heading {
+    font-size: var(--large-size);
+    padding-top: var(--medium-spacing);
+    color: var(--Slate-900);
+    font-weight: 700;
+}
+
+.card__text {
+    font-size: var(--small-size);
+    color: var(--Slate-500);
+    padding-top: var(--small-spacing);
+    line-height: 1.4;
+}
+
+/** Footer **/
+.attribution { 
+    font-size: 1.1rem; 
+    text-align: center; 
+}
